@@ -12,9 +12,10 @@ def summon_captain_planet(planeteer_calls)# This method should accept an array a
   end
 end
 
-short_words = ["puff", "go", "two"]
-def long_planeteer_calls(short_words)# code an argument here
+
+def long_planeteer_calls(long_planeteer_calls)# code an argument here
   # Are the calls longer than four characters?
+    answer = false 
   long_planeteer_calls.each do |call|
     if call.length > 4
       answer = true
@@ -22,6 +23,7 @@ def long_planeteer_calls(short_words)# code an argument here
 end
   answer
 end
+
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
