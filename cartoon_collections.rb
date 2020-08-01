@@ -9,6 +9,7 @@ def summon_captain_planet(planeteer_calls)# This method should accept an array a
   # capitalize each element and add an exclamation point at the end.
     planeteer_calls.collect do |call|
       call.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
